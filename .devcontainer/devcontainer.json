@@ -2,12 +2,12 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
   },
-  "postCreateCommand": "pip3 install -r requirements.txt && coproc nohup datasette data.db --create > datasette.log",
+  "postCreateCommand": "pip3 install -r requirements.txt && nohup datasette data.db --create > datasette.log",
   "forwardPorts": [8001],
 	"portsAttributes": {
 		"8001": {
 			"label": "Datasette",
-      "onAutoForward": "openBrowser"
+      "onAutoForward": "notify"
 		}
 	}
 }
