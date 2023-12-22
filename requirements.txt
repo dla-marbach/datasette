@@ -1,0 +1,4 @@
+datasette
+datasette-codespaces
+datasette-vega
+sqlite-utils
