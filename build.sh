@@ -8,4 +8,7 @@ sqlite-utils insert data.db doeblin-bibliothek-exemplare data/doeblin-bibliothek
 sqlite-utils enable-fts data.db doeblin-bibliothek-exemplare display
 sqlite-utils insert data.db doeblin-bibliographie data/doeblin-bibliographie.json --alter --pk=id
 sqlite-utils enable-fts data.db doeblin-bibliographie display
+sqlite-utils add-foreign-keys data.db \
+    doeblin-bibliothek-exemplare manifestation_id doeblin-bibliothek-titel id
+sqlite-utils index-foreign-keys data.db
 sqlite-utils optimize data.db

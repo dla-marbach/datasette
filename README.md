@@ -18,12 +18,14 @@ https://dla-marbach.github.io/datasette/?json=https://github.com/dla-marbach/dat
 
 ## Datasette Lite mit SQLite-Datenbank
 
-Weitere Funktionen wie Volltextsuchen sind verfügbar, wenn eine SQLite-Datenbank bereitgestellt wird. Dazu gibt es vom gleichen Entwickler (Simon Willison) ein begleitendes Tool sqlite-utils. Das Script [build.sh](build.sh) enthält ein Beispiel für das Quellenrepertorium der Exilbibliothek von Alfred Döblin und generiert die SQLite-Datenbank `data.db`. Diese Datenbank kann dann direkt mit Datasette Lite aufgerufen werden:
+Weitere Funktionen wie Volltextsuchen und Fremdschlüssel-Beziehungen sind verfügbar, wenn eine SQLite-Datenbank bereitgestellt wird. Dazu gibt es vom gleichen Entwickler (Simon Willison) das begleitende Tool [sqlite-utils](https://sqlite-utils.datasette.io). Das Script [build.sh](build.sh) enthält ein Beispiel für das Quellenrepertorium der Exilbibliothek von Alfred Döblin und generiert die SQLite-Datenbank `data.db`. Diese Datenbank kann dann direkt mit Datasette Lite aufgerufen werden:
 
 https://dla-marbach.github.io/datasette/?url=https://github.com/dla-marbach/datasette/blob/main/data.db
 
 ## Datasette Vollversion mit Installation
 
-Noch mehr Funktionen als Datasette Lite bietet die Vollversion von Datasette. Diese erfordert jedoch eine Installation lokal oder auf einem Server. Damit können die vielen Plugins genutzt werden, beispielsweise datasette-vega zur Visualisierung von Geokoordinaten.
+Noch mehr Funktionen als Datasette Lite bietet die Vollversion von Datasette. Diese erfordert jedoch eine Installation lokal oder auf einem Server. Damit können die vielen [Plugins](https://datasette.io/plugins) genutzt werden, beispielsweise datasette-vega zur Visualisierung von Geokoordinaten.
 
 Zum Ausprobieren kann GitHub Codespaces verwendet werden. Dieses Repository ist so vorbereitet, dass beim Starten des Codespace eine Datasette-Instanz gestartet und die SQLite-Datenbank frisch generiert wird.
+
+https://codespaces.new/dla-marbach/datasette
