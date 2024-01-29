@@ -24,7 +24,7 @@ https://dla-marbach.github.io/datasette/?url=https://github.com/dla-marbach/data
 
 Durch die Bereitstellung einer weiteren Datei [metadata.yaml](metadata.yaml) können Beschreibungstexte sowie Lizenz- und Quellenangaben für die Datenbank und die Tabellen ergänzt werden. Beispiel:
 
-https://dla-marbach.github.io/datasette/?url=https://github.com/dla-marbach/datasette/blob/main/data.db?metadata=https://github.com/dla-marbach/datasette/blob/main/metadata.yaml
+https://dla-marbach.github.io/datasette/?url=https://github.com/dla-marbach/datasette/blob/main/data.db&metadata=https://github.com/dla-marbach/datasette/blob/main/metadata.yaml
 
 ## Datasette Vollversion mit Installation
 
