@@ -22,6 +22,10 @@ Weitere Funktionen wie Volltextsuchen und Fremdschlüssel-Beziehungen sind verf�
 
 https://dla-marbach.github.io/datasette/?url=https://github.com/dla-marbach/datasette/blob/main/data.db
 
+Durch die Bereitstellung einer weiteren Datei [metadata.yaml](metadata.yaml) können Beschreibungstexte sowie Lizenz- und Quellenangaben für die Datenbank und die Tabellen ergänzt werden. Beispiel:
+
+https://dla-marbach.github.io/datasette/?url=https://github.com/dla-marbach/datasette/blob/main/data.db?metadata=https://github.com/dla-marbach/datasette/blob/main/metadata.yaml
+
 ## Datasette Vollversion mit Installation
 
 Noch mehr Funktionen als Datasette Lite bietet die Vollversion von Datasette. Diese erfordert jedoch eine Installation lokal oder auf einem Server. Damit können die vielen [Plugins](https://datasette.io/plugins) genutzt werden, beispielsweise datasette-vega zur Visualisierung von Geokoordinaten.

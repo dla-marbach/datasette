@@ -1,0 +1,38 @@
+title: Datasette Demonstrator im Rahmen des Text+ Kooperationsprojekts DLA Data+
+description: Die Entwicklung erfolgt exemplarisch am Corpus des Quellenrepertoriums der Exilbibliothek von Alfred Döblin
+license: CC-BY 4.0
+license_url: https://creativecommons.org/licenses/by/4.0/
+about: Text+ Kooperationsprojekt DLA Data+
+about_url: https://www.dla-marbach.de/bibliothek/projekte/text-kooperationsprojekt-dla-data/
+source: DLA OPAC Datendienst
+source_url: https://dataservice.dla-marbach.de
+databases:
+  data:
+    description: Exilbibliothek von Alfred Döblin
+    about: Projekt Quellenrepertorium der Exil-Bibliotheken im Deutschen Literaturarchiv Marbach
+    about_url: https://www.dla-marbach.de/bibliothek/projekte/quellenrepertorium-der-exil-bibliotheken-im-deutschen-literaturarchiv-marbach-modul-1-alfred-doeblin/
+    tables:
+        doeblin-bibliographie:
+            description: Personalbibliographie Alfred Döblin
+            about: Beschreibung der Personalbibliographie Alfred Döblin
+            about_url: https://www.dla-marbach.de/bibliothek/bibliografien/alfred-doeblin-personalbibliografie
+            source: DLA OPAC Datendienst Collection 2
+            source_url: https://dataservice.dla-marbach.de/v1/collection/2.json
+        doeblin-bibliothek-titel:
+            description: Autorenbibliothek Alfred Döblin - Titeldaten
+            about: Beschreibung der Autorenbibliothek Alfred Döblin
+            about_url: https://www.dla-marbach.de/bibliothek/spezialsammlungen/bestandsliste/bibliothek-alfred-doeblin
+            source: DLA OPAC Datendienst Collection 6
+            source_url: https://dataservice.dla-marbach.de/v1/collection/6.json
+        doeblin-bibliothek-exemplare:
+            description: Autorenbibliothek Alfred Döblin - Exemplare und Provenienzmerkmale
+            about: Beschreibung der Autorenbibliothek Alfred Döblin
+            about_url: https://www.dla-marbach.de/bibliothek/spezialsammlungen/bestandsliste/bibliothek-alfred-doeblin
+            source: DLA OPAC Datendienst Collection 8
+            source_url: https://dataservice.dla-marbach.de/v1/collection/8.json
+        doeblin-werke:
+            description: Werknormsätze Alfred Döblin
+            about: Projekt Werktitel als Wissensraum
+            about_url: https://www.dla-marbach.de/bibliothek/projekte/werktitel-als-wissensraum/
+            source: DLA OPAC Datendienst Collection 4
+            source_url: https://dataservice.dla-marbach.de/v1/collection/4.json

@@ -4,7 +4,7 @@
     },
     "postCreateCommand": "pip3 install datasette datasette-codespaces sqlite-utils",
     "postAttachCommand": {
-      "server": "datasette data.db --create",
+      "server": "datasette data.db --create --metadata metadata.yaml",
       "import": "bash build.sh"
     },
     "forwardPorts": [8001],
