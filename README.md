@@ -14,7 +14,7 @@ https://dla-marbach.github.io/datasette/?json=https://dataservice.dla-marbach.de
 
 Bei der Nutzung von Facetten, Filtern und weiteren Funktionen werden diese als Parameter in der URL vermerkt. Diese URLs können als Direktlinks für spezifische Sichten verwendet und geteilt werden. Beispiel mit drei ausgewählten Spalten und einer vorausgewählten Facette:
 
-https://dla-marbach.github.io/datasette/?json=https://dataservice.dla-marbach.de/v1/records?q=item_holding_id_mv:BF00019097&_col=id&_col=display&_col=personBy_display_mv&_facet=category#/data/records
+https://dla-marbach.github.io/datasette/?json=https://dataservice.dla-marbach.de/v1/records?q=item_holding_id_mv:BF00019097#/data/records?_col=id&_col=display&_col=personBy_display_mv&_facet=category
 
 ## Datasette Lite mit SQLite-Datenbank
 
